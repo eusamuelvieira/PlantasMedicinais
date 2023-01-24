@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@700&family=Corinthia:wght@400;700&family=Dancing+Script:wght@400;500;600;700&family=La+Belle+Aurore&family=Nerko+One&family=Open+Sans:wght@300;700&family=Poppins:wght@200;400;600&family=Roboto:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-primary: 'Nerko One', cursive;
+    --font-secundary:'La Belle Aurore', cursive;
+    --font-action:  'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-action);
+    padding: 0px 15px;
+}
+
+.box-login{
+    width: 500px;
+    height: 500px;
+    background: #5b794e;
+    border: 0;
+    border-radius: 1rem;
+}
+
+.box-login .capa{
+    height: 230px;
+    background: url(../img/lucas-de-moura-sjbMq1aSYOw-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 1rem  1rem 0 0;
+}
+h1{
+    font-size: 24px;
+    color: #fff;
+    text-align: left;
+    margin: 15px 0px 2px 15px;
+    font-weight: 500;
+}
+form input{
+    margin: 0px 20px;
+    width: calc(100% - 40px);
+    padding: 10px 15px;
+    border: 0;
+    border-radius: .3rem;
+    margin-bottom: 20px;
+    color: #425838;
+}
+form .btn-login{
+    margin: 0px 20px;
+    width: calc(100% - 40px);
+    border: 0;
+    background: #425838;
+    color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: .3rem;
+}
+.msg_error{
+    color:#FF6D6D;
+    display: flex;
+    justify-content: center;
+}
